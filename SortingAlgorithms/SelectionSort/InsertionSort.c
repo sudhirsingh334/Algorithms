@@ -7,21 +7,7 @@ void insertionSort(int array[], int size) {
 int n=size;
 for (int i=0; i<n;i++) {
 	//for j --> i to 1(>0), j--
-/*
-	for(int j=i; j>0;j--) {
-		// compare array[j] & array[j-1]
-		//if array[j] < array[j-1] --> Swap
-		if (array[j] < array[j-1]) {
-			//Swap
-			int temp = array[j];
-			array[j] = array[j-1];
-			array[j-1] = temp;
-		} else {
-			//Previuos sub array is already sorted
-			break;
-		}
-	}
-	*/
+
 
 	int j=i;
 
